@@ -10,7 +10,6 @@ import {
 } from "../features/cartSlice";
 
 import ArrowBtn from "../images/svg/arrow-left.svg";
-import Flutterwave from "./Flutterwave";
 import PaystackHookExample from "./PayStack";
 
 const Cart = () => {

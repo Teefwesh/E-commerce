@@ -2,7 +2,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import { NavLink, Outlet } from "react-router-dom";
 import styled from "styled-components";
-import { FaUsers, FaStore, FaTachometerAlt, FaUser } from "react-icons/fa";
+import { FaUsers, FaStore, FaTachometerAlt } from "react-icons/fa";
 
 const Dashboard = () => {
   const auth = useSelector((state) => state.auth);

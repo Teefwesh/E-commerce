@@ -14,7 +14,7 @@ export default function UsersList() {
 
   useEffect(() => {
     dispatch(fetchUsers());
-  }, []);
+  }, [dispatch]);
 
   const rows =
     list &&
